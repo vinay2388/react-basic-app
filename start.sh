@@ -5,4 +5,3 @@ fi
 git clone $gitUrl /opt/apps/
 cd /opt/apps/
 npm install
-npm start
