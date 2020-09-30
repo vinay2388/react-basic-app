@@ -4,6 +4,6 @@ if [  -z "${username}" ]; then
 else
  gitUrl=https://github.com/vinay2388/react-basic-app.git
 fi
-git clone ${gitUrl} /opt/apps/
-cd /opt/apps/
+git clone ${gitUrl} /opt/apps/react
+cd /opt/apps/react
 npm install
