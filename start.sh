@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "${username}" ] && [ "${password}" ]; then
+if [ "${username}" = "vinay2388" ] && [ "${password}" = "Vinay@2388" ]; then
   gitUrl=https://github.com/vinay2388/react-basic-app.git
 fi
 echo $gitUrl
