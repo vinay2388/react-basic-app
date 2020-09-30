@@ -1,6 +1,3 @@
 #!/bin/bash
-
-command=${command}
-
-
-$command start
+cd /opt/apps/react
+npm start
