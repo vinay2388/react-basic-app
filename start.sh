@@ -1,6 +1,6 @@
 #!/bin/bash
-if [  -z "${username}" ]; then
-  gitUrl=https://github.com/vinay2388/react-basic-app.git
+if [  -z "${username}" ]&&[-z "${password}"]; then
+  gitUrl=https://${username}:${password}@github.com/vinay2388/react-basic-app.git
 
 fi
 git clone ${gitUrl} /opt/apps/react
