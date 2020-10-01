@@ -3,6 +3,7 @@ if [[ -z "${username}" && -z "${password}" ]]; then
   gitUrl=$giturl
 fi
 echo $gitUrl
+npm install -g zip
 git clone ${gitUrl} /opt/apps/react
 cp /opt/apps/react/run.sh /opt/apps
 cd /opt/apps/react
