@@ -17,5 +17,5 @@ mv build /opt/apps/reactproject
 mv package.json /opt/apps/reactproject
 cd /opt/apps/
 zip -r reactapp reactproject
-rm -rf react
 rm -rf reactproject
+rm -rf react
