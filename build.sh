@@ -8,7 +8,12 @@ cp /opt/apps/react/run.sh /opt/apps
 cd /opt/apps/react
 npm install
 npm run build
-mv build /opt/apps
-mv package.json /opt/apps
 cd /opt/apps/
+mkdir reactproject
+cd /opt/apps/react
+mv build /opt/apps/reactproject
+mv package.json /opt/apps/reactproject
+cd /opt/apps/
+zip -r reactapp reactproject
 rm -rf react
+rm -rf reactproject
