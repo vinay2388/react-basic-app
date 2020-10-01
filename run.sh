@@ -1,4 +1,4 @@
 cd /opt/apps/
 unzip reactapp.zip
-cd /opt/apps/reactapp
+cd /opt/apps/reactproject
 serve -s build
