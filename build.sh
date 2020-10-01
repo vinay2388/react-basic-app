@@ -4,7 +4,7 @@ if [[ -z "${username}" && -z "${password}" ]]; then
 fi
 echo $gitUrl
 git clone ${gitUrl} /opt/apps/react
-# cp /opt/apps/react/script.sh /opt/apps
+cp /opt/apps/react/run.sh /opt/apps
 cd /opt/apps/react
 npm install
 npm run build
